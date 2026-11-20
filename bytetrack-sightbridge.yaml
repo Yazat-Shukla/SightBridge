@@ -1,0 +1,9 @@
+# Keep ByteTrack low-score recovery for existing tracks, but require a stronger
+# score before a new identity is created. Track buffer remains frame-based.
+tracker_type: bytetrack
+track_high_thresh: 0.25
+track_low_thresh: 0.10
+new_track_thresh: 0.45
+track_buffer: 45
+match_thresh: 0.80
+fuse_score: True
